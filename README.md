@@ -10,7 +10,7 @@ yarn add @cstefflexin/auto-updater
 ```
 or 
 ```
-npm install /@cstefflexin/auto-updater
+npm install @cstefflexin/auto-updater
 ```
 
 

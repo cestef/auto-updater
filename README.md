@@ -16,10 +16,27 @@ npm install /@cstefflexin/auto-updater
 
 ## Using
 
-Here is an example using typescript
-
+Typescript
 ```ts
-import AutoGitUpdate, { LogLevel } from "auto-updater";
+import AutoGitUpdate, { LogLevel } from "@cstefflexin/auto-updater";
+
+const git = new AutoGitUpdate({
+    repository: "https://github.com/cstefFlexin/auto-updater",
+    tempLocation: "/Users/cstef/Desktop",
+    branch: "main",
+    test: true,
+    prompt: true,
+    logLevel: LogLevel.Info,
+});
+(async () => {
+    await git.autoUpdate();
+})();
+```
+
+Javascript
+```js
+
+const { default: AutoGitUpdate, LogLevel } = require("@cstefflexin/auto-updater");
 
 const git = new AutoGitUpdate({
     repository: "https://github.com/cstefFlexin/auto-updater",

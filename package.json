@@ -1,10 +1,14 @@
 {
-    "name": "auto-updater",
+    "name": "@cstefflexin/auto-updater",
     "version": "1.0.0",
     "main": "index.js",
     "repository": "https://github.com/cstefFlexin/auto-updater.git",
     "author": "cstef",
     "license": "MIT",
+    "types": "index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
     "dependencies": {
         "app-root-path": "^3.0.0",
         "chalk": "^4.1.2",

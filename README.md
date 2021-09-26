@@ -6,11 +6,11 @@ Update your nodejs app automatically from a remote git repo by checking the pack
 ## Installing 
 
 ```
-yarn add https://github.com/cstefFlexin/auto-updater
+yarn add @cstefflexin/auto-updater
 ```
 or 
 ```
-npm install cstefFlexin/auto-updater
+npm install /@cstefflexin/auto-updater
 ```
 
 

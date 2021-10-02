@@ -3,3 +3,5 @@ testing/
 test.ts
 .DS_Store
 .vscode/
+index.d.ts
+index.js
